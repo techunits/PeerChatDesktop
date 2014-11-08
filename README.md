@@ -1,0 +1,4 @@
+PeerChatDesktop
+===============
+
+PeerChat desktop client.
