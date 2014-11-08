@@ -1,0 +1,71 @@
+ul, ol, li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*	color schemes	*/
+.colorGreen	{	color: green !important;	}
+.colorOrange	{	color: orange !important;	}
+.colorRed	{	color: red !important;	}
+.colorGrey	{	color: grey !important;	}
+.colorBlue	{	color: blue !important;	}
+
+.sectonHeading	{
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.loginSettings	{
+	width: 250px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
+.leftSection	{
+	background: #E4F8FF;
+	min-height: 425px;
+}
+.userList	li	{
+	padding: 5px 10px;
+}
+.userList	li:hover	{
+	background: #B4E6F7;
+	cursor: pointer;
+}
+.userList	li	label	{
+	font-weight: normal;
+	padding-left: 4px;
+	font-size: 100%;
+	cursor: pointer;
+}
+.userList	li	img.thumb	{
+	border-radius: 50%;
+	-wbekit-border-radius: 50%;
+	width: 20px;
+}
+
+
+.userInfo	{
+	border-bottom: 1px solid #DADADA;
+	padding: 10px 0px 10px;
+	height: 50px;
+}
+.userInfo	img.thumb	{
+	width: 32px;
+	margin-right: 5px;
+}
+
+.chatHistoryDisplay {
+	min-height: 300px;
+}
+
+.chatTextBox	{
+	background: #E4F8FF;
+	border-top: 1px solid #E4F8FF;
+	height: 75px;
+}
+.chatTextBox	textarea	{
+	background: #E4F8FF;
+	height: 75px;
+}

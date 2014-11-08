@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    
+	    <meta name="title" content="Video chat using socket.io">
+	    <meta name="author" content="Hiren Kavad">
+	    
+	    <title>PeerChat - Enterprise Chat Engine</title>
+	
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	    
+	    <script type="text/javascript" src="js/jquery.min.js"></script>
+    	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    	
+    	<!-- Application Specific Javascripts -->
+	    <script type="text/javascript" src='/socket.io/socket.io.js'></script>
+	    <script type="text/javascript" src='/js/main.js'></script>
+	</head>
+
+	<body>
+		<header>
+		</header>
+		
+		<section class="wrapper">
+			<aside class="col-xs-3	col-sm-3	col-md-3	leftSection">
+				<h3 class="sectonHeading">Online Contacts</h3>
+				<ul class="userList">
+					<li>
+						<img class="thumb" src="https://cdn3.iconfinder.com/data/icons/users/100/user_male_1-64.png" alt="" />
+						<label>Sougata Pal</label>
+					</li>
+					<li>
+						<img class="thumb" src="https://cdn3.iconfinder.com/data/icons/users/100/user_male_1-64.png" alt="" />
+						<label>Scott Paul</label>
+					</li>
+					<li>
+						<img class="thumb" src="https://cdn3.iconfinder.com/data/icons/users/100/user_male_1-64.png" alt="" />
+						<label>Shane Meheri</label>
+					</li>
+					<li>
+						<img class="thumb" src="https://cdn3.iconfinder.com/data/icons/users/100/user_male_1-64.png" alt="" />
+						<label>Adam Bera</label>
+					</li>
+					<li>
+						<img class="thumb" src="https://cdn3.iconfinder.com/data/icons/users/100/user_male_1-64.png" alt="" />
+						<label>Alur Dom</label>
+					</li>
+					<li>
+						<img class="thumb" src="https://cdn3.iconfinder.com/data/icons/users/100/user_male_1-64.png" alt="" />
+						<label>Amanda Wiztel</label>
+					</li>
+				</ul>
+			</aside>
+			
+			<aside class="col-xs-9	col-sm-9	col-md-9">
+				<div class="userInfo">
+					<img class="thumb" src="https://cdn3.iconfinder.com/data/icons/users/100/user_male_1-64.png" alt="" />
+					<label>Sougata Pal</label>
+				</div>
+				
+				<div class="chatHistoryDisplay"></div>
+				
+				<div class="chatTextBox">
+					<textarea id="" class="form-control" placeholder="Type a message here..."></textarea>
+				</div>
+			</aside>
+		</section>
+		
+		<footer>
+		</footer>
+	</body>
+</html>

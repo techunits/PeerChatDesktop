@@ -1,0 +1,11 @@
+{
+  "name": "PeerChat Desktop",
+  "version": "0.0.1",
+  "description": "Peer Chat: Video Chatting Application Desktop Client",
+  "main": "index.html",
+  "author": "https://github.com/Hironate",
+  "window": {
+  	"toolbar": false,
+  	"frame": true
+  }
+}
